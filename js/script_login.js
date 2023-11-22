@@ -5,7 +5,7 @@ function EntrarLogin() {
     let dadosAdm = {email: usuario, senha: senha};
 
     if (validarUsuario(dadosAdm)) {
-        alert("Login realizado com sucesso! :) ")
+        alert("Login realizado com sucesso! :) ");
         window.location.href = "area_adm.html";
     } else {
         alert("Usuário ou senha inválidos!").reset();
