@@ -2,7 +2,7 @@ function EntrarLogin() {
     let usuario = document.getElementById("usuario").value;
     let senha = document.getElementById("senha").value;
 
-    let dadosAdm = {email: email-usuario, senha: senha-usuario};
+    let dadosAdm = {email: usuario, senha: senha};
 
     if (validarUsuario(dadosAdm)) {
         alert("Login realizado com sucesso! :) ")
