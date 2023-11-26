@@ -1,3 +1,48 @@
 body {
+    margin: 8px;
     font-family: 'Open Sans', sans-serif;
+}
+
+#menu {
+    display: flex;
+    font-size: 18px;
+    justify-content: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+#title {
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+}
+
+#container {
+    display: flex;
+    padding: 2%;
+    margin: 0% 30% 20% 30%;
+}
+
+.text_right ,
+.text_left {
+    text-align: justify;
+}
+
+form {
+    text-align: justify;
+    max-width: 400px;
+    margin-bottom: 8px;
+}
+
+#mensagem {
+    margin-bottom: 5px; 
+    margin-right: 80px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
 }
