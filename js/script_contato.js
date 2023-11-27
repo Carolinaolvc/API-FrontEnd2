@@ -1,12 +1,14 @@
 function DadosContato() {
-    let nome = document.getElementById("nome");
-    let email = document.getElementById("email")
-    let mensagem = document.getElementById("mensagem");
+    let nome = document.getElementById("nome").value;
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value;
 
-    let dados = {Nome: nome, Email: email, Mensagem: mensagem};
+    let dados = {nome: nome, email: email, mensagem: mensagem};
 
     console.log(dados)
 
-    document.getElementById('form-login').reset();
+    inserirMensagem(dados)
+
+    document.getElementById('form-contato').reset();
 
 }
