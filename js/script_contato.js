@@ -8,7 +8,8 @@ function DadosContato() {
     console.log(dados)
 
     inserirMensagem(dados)
-
+        alert('Mensagem enviada com sucesso! :) ')
+    
     document.getElementById('form-contato').reset();
 
 }

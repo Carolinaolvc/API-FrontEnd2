@@ -8,7 +8,7 @@ function EntrarLogin() {
         alert("Login realizado com sucesso! :) ");
         window.location.href = "area_adm.html";
     } else {
-        alert("Usuário ou senha inválidos!").reset();
+        alert("Usuário ou senha inválidos! :( ").reset();
     }
 
     document.getElementById('form-login').reset();
